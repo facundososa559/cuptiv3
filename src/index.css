@@ -1,0 +1,128 @@
+@import "tailwindcss";
+
+:root {
+  font-family: "Geist", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* ======== SECTIONS SPACING ======== */
+  --section-padding-inline-sm: 24px;
+  --section-padding-inline-md: 32px;
+  --section-padding-inline-lg: 120px; 
+
+  /* ========= BLOG ARTICLE PADDING ==========*/
+  --blog-article-inline-md: 64px; 
+  --blog-article-inline-lg: 25%; 
+
+  /* ======= SPACING DATA ======== */
+  --spacing-xxxs: 4px;
+  --spacing-xxs: 8px;
+  --spacing-xs: 16px;
+  --spacing-sm: 24px;
+  --spacing-md: 32px;
+  --spacing-lg: 40px;
+  --spacing-xl: 48px;
+  --spacing-xxl: 64px;
+  --spacing-xxxl: 112px;
+  --spacing-xxxxl: 500px;
+
+  /* ========= COLOR =========== */
+  --primary: #003D6A;
+  --secondary: #006E3C;
+  --accent: #F39200;
+  --accent-dark: #e18a08;
+  --dark: #1A1A1A;
+  --light: #F4F4F4;
+  --neutral: #5d646b;
+  --neutral-light: #6c757d3c;
+
+  /* ======== RADIUS =========== */
+  --radius-sm: 12px;
+}
+
+
+/* ============ TYPOGRAPHY STYLES ============= */
+
+.heading-1 {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.heading-2 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.heading-3 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.heading-4 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.heading-5 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.heading-6 {
+  font-size: 1.05rem;
+  font-weight: 500;
+}
+
+.paragraph {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+
+/* ========== GENERAL STYLES =========== */
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+}
+
+
+button {
+  border-radius: 4px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background-color 0.25s;
+}
+
+button:hover {
+  background-color: var(--accent-dark);
+}
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+}

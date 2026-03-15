@@ -1,0 +1,29 @@
+.home-bg,
+.efficiency-bg,
+.renovables-bg,
+.industrial-bg {
+    background-size: cover;
+    object-fit: cover;
+    object-position: center;
+}
+
+.home-bg {
+    background-image: url(../../assets/backgrounds/home-background.jpg);
+}
+
+.efficiency-bg {
+    background-image: url(../../assets/backgrounds/efficiency-background.jpg);
+}
+
+.renovables-bg {
+    background-image: url(../../assets/backgrounds/renovables-background.jpg);
+}
+
+.industrial-bg {
+    background-image: url(../../assets/backgrounds/industrial-background.jpg);
+}
+
+.overlay {
+    background: #003D6A;
+    background: linear-gradient(160deg, rgba(0, 61, 106, 1) 0%, rgba(0, 55, 106, 0.74) 40%, rgba(76, 186, 128, 0.73) 80%);
+}
