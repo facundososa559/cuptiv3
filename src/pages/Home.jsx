@@ -32,7 +32,7 @@ function Home() {
         subtitle={
         <span>
           {/* <p>Ofrecemos soluciones integrales en energías renovables, eficiencia energética e ingeniería industrial.</p> */}
-          <p>Pensamos en empresas que buscan optimizar costos, mejorar su desempeño energético y avanzar hacia la sostenibilidad.</p>
+          <p>Apuntamos a empresas uruguayas que buscan optimizar costos, mejorar su desempeño energético y avanzar hacia la sostenibilidad.</p>
         </span>}
         cta="Quiero empezar a ahorrar "
         ctaLink="/calculadora"
@@ -70,10 +70,7 @@ function Home() {
         <h3 className='heading-3 text-(--primary)'>Nuestros servicios</h3>
         <div 
           className='
-            grid
-            grid-cols-3
-            gap-(--spacing-xxs) 
-            md:flex-row
+            grid grid-cols-1 md:grid-cols-3 gap-(--spacing-xxs)
           '>
           <CardService
             icon={sun}
@@ -113,10 +110,7 @@ function Home() {
         <h3 className='heading-3 text-(--primary) text-center'>Novedades y noticias</h3>
         <div 
           className='
-            grid
-            grid-cols-3
-            gap-(--spacing-xxs) 
-            md:flex-row
+            grid grid-cols-1 md:grid-cols-3 gap-(--spacing-xxs)
           '>
             
            {/* ========= CARDS LIST ========= */} 
@@ -150,10 +144,7 @@ function Home() {
         <h3 className='heading-3 text-(--primary)'>Proyectos destacados</h3>
         <div 
           className='
-            grid
-            grid-cols-3
-            gap-(--spacing-xxs) 
-            md:flex-row
+            grid grid-cols-1 md:grid-cols-3 gap-(--spacing-xxs)
           '>
           <CardProject
             category="ENERGÍAS RENOVABLES"
