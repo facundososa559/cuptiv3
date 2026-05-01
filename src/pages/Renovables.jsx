@@ -28,8 +28,8 @@ function Renovables() {
       <NavBar />
       <Hero 
         page="renovables"
-        title="Energías renovables"
-        subtitle="Instalación de paneles solares y sistemas de energía renovable con retorno de inversión en menos de 5 años."
+        title="Instalación de paneles solares y sistemas de energía renovable."
+        subtitle="Instalamos sistemas de energía renovable con retorno de inversión en menos de 5 años, reduciendo costos a la hora de generar energía."
         cta="Quiero ahorrar energía"
         ctaLink="#info"
       />

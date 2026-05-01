@@ -23,9 +23,9 @@ function Industrial() {
       <NavBar />
       <Hero 
         page="industrial"
-        title="Ingeniería industrial"
-        subtitle="Soluciones de diseño mecánico y automatización industrial."
-        cta="Quiero ver soluciones"
+        title="Soluciones de diseño mecánico y automatización industrial."
+        subtitle="Con el objetivo de maximizar la productividad y eficiencia operativa."
+        cta="Quiero agilizar mis procesos"
         ctaLink="#info"
       />
 
@@ -38,7 +38,7 @@ function Industrial() {
           lg:px-(--section-padding-inline-lg)  
       '>
         <ContainerText 
-          title="Optimizamos los procesos de tu industria para maximizar la productividad y eficiencia operativa →" 
+          title="Optimizamos los procesos de tu industria →" 
           description="Brindamos servicios de ingeniería que abarcan múltiples disciplinas del sector industrial, desde las etapas iniciales de relevamiento, diseño e ingeniería básica, hasta la ejecución, habilitación y puesta en marcha de instalaciones y procesos.
 
           Desarrollamos soluciones a medida para optimizar la eficiencia operativa, reducir costos, cumplir con la normativa vigente y garantizar la seguridad de las instalaciones."

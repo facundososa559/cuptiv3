@@ -32,7 +32,7 @@ function Efficiency() {
         page="efficiency"
         title="Auditorías de eficiencia energética e implementación de medidas."
         subtitle="Minimizamos tu consumo de energía sin tener que modificar tus hábitos de consumo, ni llevar cabo grandes inversiones iniciales de dinero."
-        cta="Quiero empezar a ahorrar "
+        cta="Quiero ahorrar energía"
         ctaLink="/calculadora"
       />
 

@@ -18,7 +18,7 @@ import CardBlog from '../components/Cards/CardBlog/CardBlog'
 
 function Home() {
   console.log(sun);
-  
+
   return (
     <div>
 
@@ -30,11 +30,11 @@ function Home() {
         page="home"
         title="Soluciones integrales en energías renovables, eficiencia energética e ingeniería industrial."
         subtitle={
-        <span>
-          {/* <p>Ofrecemos soluciones integrales en energías renovables, eficiencia energética e ingeniería industrial.</p> */}
-          <p>Apuntamos a empresas uruguayas que buscan optimizar costos, mejorar su desempeño energético y avanzar hacia la sostenibilidad.</p>
-        </span>}
-        cta="Quiero empezar a ahorrar "
+          <span>
+            {/* <p>Ofrecemos soluciones integrales en energías renovables, eficiencia energética e ingeniería industrial.</p> */}
+            Pensadas para empresas uruguayas que buscan optimizar costos, mejorar su desempeño energético y avanzar hacia la sostenibilidad.
+          </span>}
+        cta="Quiero ahorrar energía"
         ctaLink="/calculadora"
       />
 
@@ -49,15 +49,15 @@ function Home() {
           px-(--section-padding-inline-sm) 
           md:px-(--section-padding-inline-md) 
           lg:px-(--section-padding-inline-lg)'
-        >
+      >
         <h3 className='heading-3 text-(--primary) text-center'>Empresas que ya confiaron en nosotros</h3>
         <Logos />
       </section>
 
-      
+
 
       {/* =========== SERVICIOS =========== */}
-      <section 
+      <section
         className='
           flex
           flex-col
@@ -68,7 +68,7 @@ function Home() {
           lg:px-(--section-padding-inline-lg)
         '>
         <h3 className='heading-3 text-(--primary)'>Nuestros servicios</h3>
-        <div 
+        <div
           className='
             grid grid-cols-1 md:grid-cols-3 gap-(--spacing-xxs)
           '>
@@ -98,7 +98,7 @@ function Home() {
 
 
       {/* ===================== BLOG =================== */}
-      <section className='
+      {/* <section className='
           flex
           flex-col
           gap-(--spacing-xxl)
@@ -113,7 +113,7 @@ function Home() {
             grid grid-cols-1 md:grid-cols-3 gap-(--spacing-xxs)
           '>
             
-           {/* ========= CARDS LIST ========= */} 
+           
             {articles.map((article) => (
               <CardBlog
                 key={article.slug}
@@ -126,12 +126,57 @@ function Home() {
             ))}
         </div>
 
+      </section> */}
+
+
+
+
+
+      {/* =========== ABOUT ============ */}
+      <section
+        className='
+          flex
+          flex-col
+          gap-(--spacing-xl)
+          py-(--spacing-xxxl)
+          px-(--section-padding-inline-sm) 
+          md:px-(--section-padding-inline-md) 
+          lg:px-(--section-padding-inline-lg)
+        '>
+        <ContainerImage
+          image={aboutImage}
+          title="SOBRE NOSOTROS"
+          heading="Somos una empresa cooperativa especializada en soluciones energéticas eficientes y sostenibles."
+          description={`CUPTI Ingeniería fue fundada en el año 2013 por seis socios, en aquel entonces estudiantes de ingeniería, con el objetivo de convertirse en la referencia en el sector de la ingeniería y la eficiencia energética.
+          
+          Desde nuestra fundación hemos incorporado nuevos socios, y áreas de especialización para ofrecer soluciones integrales que ayudan a nuestros clientes a optimizar sus recursos energéticos y mejorar sus procesos industriales.`}
+        />
       </section>
 
 
 
+
+      {/* ============= CONTADORES ============ */}
+      <section
+        className='
+          flex 
+          flex-col 
+          justify-center
+          gap-(--spacing-xxxl) 
+          md:flex-row 
+          pb-(--spacing-xxl)
+          px-(--section-padding-inline-sm) 
+          md:px-(--section-padding-inline-md) 
+          lg:px-(--section-padding-inline-lg
+        '>
+        <Counter number="10" description="Años de experiencia" />
+        <Counter number="100" description="Proyectos terminados" />
+        <Counter number="135.000" description="kWh ahorrados en todo el país" />
+      </section>
+
+
       {/* ============= PROYECTOS ============== */}
-      <section 
+      <section
         className='
           flex
           flex-col
@@ -142,7 +187,7 @@ function Home() {
           lg:px-(--section-padding-inline-lg)
         '>
         <h3 className='heading-3 text-(--primary)'>Proyectos destacados</h3>
-        <div 
+        <div
           className='
             grid grid-cols-1 md:grid-cols-3 gap-(--spacing-xxs)
           '>
@@ -170,54 +215,6 @@ function Home() {
         </div>
       </section>
 
-
-
-
-      {/* =========== ABOUT ============ */}
-      <section 
-        className='
-          flex
-          flex-col
-          gap-(--spacing-xl)
-          py-(--spacing-xxxl)
-          px-(--section-padding-inline-sm) 
-          md:px-(--section-padding-inline-md) 
-          lg:px-(--section-padding-inline-lg)
-        '>
-        <ContainerImage
-          image={aboutImage}
-          title="SOBRE NOSOTROS"
-          heading="Somos una empresa cooperativa especializada en soluciones energéticas eficientes y sostenibles."
-          description={`CUPTI Ingeniería fue fundada en el año 2013 por seis socios, en aquel entonces estudiantes de ingeniería, con el objetivo de convertirse en la referencia en el sector de la ingeniería y la eficiencia energética.
-          
-          Desde nuestra fundación hemos incorporado nuevos socios, y áreas de especialización para ofrecer soluciones integrales que ayudan a nuestros clientes a optimizar sus recursos energéticos y mejorar sus procesos industriales.`}
-        />
-      </section>
-
-
-
-
-      {/* ============= CONTADORES ============ */}
-      <section 
-        className='
-          flex 
-          flex-col 
-          justify-center
-          gap-(--spacing-xxxl) 
-          md:flex-row 
-          pb-(--spacing-xxl)
-          px-(--section-padding-inline-sm) 
-          md:px-(--section-padding-inline-md) 
-          lg:px-(--section-padding-inline-lg
-        '>
-        <Counter number="10" description="Años de experiencia" />
-        <Counter number="100" description="Proyectos terminados" />
-        <Counter number="135.000" description="kWh ahorrados en todo el país" />
-      </section>
-
-      
-
-      
     </div>
   )
 }
