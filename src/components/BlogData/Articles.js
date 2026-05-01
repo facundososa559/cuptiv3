@@ -9,6 +9,6 @@ export const articles = [
     date: "Marzo 11, 2026",
     author: "CUPTI",
     cover: cover1,
-    body: article1,
+    // body: article1,
   },
 ]
