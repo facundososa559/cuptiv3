@@ -97,39 +97,6 @@ function Home() {
       </section>
 
 
-      {/* ===================== BLOG =================== */}
-      {/* <section className='
-          flex
-          flex-col
-          gap-(--spacing-xxl)
-          py-(--spacing-xxxl)
-          px-(--section-padding-inline-sm) 
-          md:px-(--section-padding-inline-md) 
-          lg:px-(--section-padding-inline-lg)'
-        >
-        <h3 className='heading-3 text-(--primary) text-center'>Novedades y noticias</h3>
-        <div 
-          className='
-            grid grid-cols-1 md:grid-cols-3 gap-(--spacing-xxs)
-          '>
-            
-           
-            {articles.map((article) => (
-              <CardBlog
-                key={article.slug}
-                title={article.title}
-                description={article.description}
-                date={article.date}
-                slug={article.slug}
-                cover={article.cover}
-              />
-            ))}
-        </div>
-
-      </section> */}
-
-
-
 
 
       {/* =========== ABOUT ============ */}
@@ -214,6 +181,42 @@ function Home() {
           />
         </div>
       </section>
+
+
+
+      {/* ===================== BLOG =================== */}
+      <section className='
+          flex
+          flex-col
+          gap-(--spacing-xxl)
+          py-(--spacing-xxxl)
+          px-(--section-padding-inline-sm) 
+          md:px-(--section-padding-inline-md) 
+          lg:px-(--section-padding-inline-lg)'
+        >
+        <h3 className='heading-3 text-(--primary) text-center'>Novedades y noticias</h3>
+        <div 
+          className='
+            grid grid-cols-1 md:grid-cols-3 gap-(--spacing-xxs)
+          '>
+            
+           
+            {articles.map((article) => (
+              <CardBlog
+                key={article.slug}
+                title={article.title}
+                description={article.description}
+                date={article.date}
+                slug={article.slug}
+                cover={article.cover}
+              />
+            ))}
+        </div>
+
+      </section>
+
+
+      
 
     </div>
   )

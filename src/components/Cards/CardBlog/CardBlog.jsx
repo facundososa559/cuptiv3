@@ -13,7 +13,7 @@ export default function CardBlog({ title, description, date, slug, cover }) {
         <img
           src={cover}
           alt={title}
-          className="w-full h-40 object-cover"
+          className="w-full h-50 object-cover"
         />
       </div>
 
