@@ -1,11 +1,5 @@
-// import article1 from "./articles/primer-articulo.md?raw"
+import article1 from "./articles/primer-articulo.md?raw"
 import cover1 from "../../assets/blog-covers/blog-cover-1.webp"
-
-const modules = import.meta.globEager('./articles/*.md', { as: 'raw' });
-const articles = Object.entries(modules).map(([path, content]) => ({
-  path,
-  content: content.default ?? content
-}));
 
 export const articles = [
   {
