@@ -1,4 +1,4 @@
-import article1 from "./articles/primer-articulo.md?raw"
+import article1 from "./Articles/primer-articulo.md?raw"
 import cover1 from "../../assets/blog-covers/blog-cover-1.webp"
 
 export const articles = [
