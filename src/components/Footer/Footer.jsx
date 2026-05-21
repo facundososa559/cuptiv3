@@ -20,7 +20,7 @@ function Footer() {
         justify-between 
         px-(--section-padding-inline-sm)  
         md:px-(--section-padding-inline-md) 
-        lg:px-(--section-padding-inline-lg)
+        xl:px-(--section-padding-inline-xl)
         text-(--light)
         bg-(--primary)
       '>

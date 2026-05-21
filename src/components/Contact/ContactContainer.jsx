@@ -16,7 +16,7 @@ export default function ContactContainer({ title, description }) {
         mt-(--spacing-xxxl) 
         px-(--section-padding-inline-sm) 
         md:px-(--section-padding-inline-md) 
-        lg:px-(--section-padding-inline-lg)
+        xl:px-(--section-padding-inline-xl)
         relative
       '>
       <h3 className='heading-3 md:text-center text-(--primary)'>Ingresá tus datos y te contactamos</h3>

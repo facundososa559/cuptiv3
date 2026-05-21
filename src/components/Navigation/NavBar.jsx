@@ -25,7 +25,7 @@ function NavBar() {
 
   return (
     <header className={`flex absolute w-full ${isMenuOpen && width < 900 ? "bg-(--light)" : "]"}`}>
-      <div className="flex flex-wrap w-full flex-row justify-between items-center gap-(--spacing-sm) px-(--section-padding-inline-sm) md:px-(--section-padding-inline-md) lg:px-(--section-padding-inline-lg) py-(--spacing-sm)">
+      <div className="flex flex-wrap w-full flex-row justify-between items-center gap-(--spacing-sm) px-(--section-padding-inline-sm) md:px-(--section-padding-inline-md) xl:px-(--section-padding-inline-xl) py-(--spacing-sm)">
         <a href="/" className="navbar-logo">
           <img src={isMenuOpen ? logoBlue : logoWhite} alt="CUPTI" />
         </a>

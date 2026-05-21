@@ -48,7 +48,7 @@ function Home() {
           py-(--spacing-xxxl)
           px-(--section-padding-inline-sm) 
           md:px-(--section-padding-inline-md) 
-          lg:px-(--section-padding-inline-lg)'
+          xl:px-(--section-padding-inline-xl)'
       >
         <h3 className='heading-3 text-(--primary) text-center'>Empresas que ya confiaron en nosotros</h3>
         <Logos />
@@ -62,10 +62,10 @@ function Home() {
           flex
           flex-col
           gap-(--spacing-xl)
-          py-(--spacing-xxxl)
+          py-(--spacing-xxl)
           px-(--section-padding-inline-sm) 
           md:px-(--section-padding-inline-md) 
-          lg:px-(--section-padding-inline-lg)
+          xl:px-(--section-padding-inline-xl)
         '>
         <h3 className='heading-3 text-(--primary)'>Nuestros servicios</h3>
         <div
@@ -108,7 +108,7 @@ function Home() {
           py-(--spacing-xxxl)
           px-(--section-padding-inline-sm) 
           md:px-(--section-padding-inline-md) 
-          lg:px-(--section-padding-inline-lg)
+          xl:px-(--section-padding-inline-xl)
         '>
         <ContainerImage
           image={aboutImage}
@@ -134,7 +134,7 @@ function Home() {
           pb-(--spacing-xxl)
           px-(--section-padding-inline-sm) 
           md:px-(--section-padding-inline-md) 
-          lg:px-(--section-padding-inline-lg
+          xl:px-(--section-padding-inline-xl
         '>
         <Counter number="10" description="Años de experiencia" />
         <Counter number="100" description="Proyectos terminados" />
@@ -151,7 +151,7 @@ function Home() {
           py-(--spacing-xxl)
           px-(--section-padding-inline-sm) 
           md:px-(--section-padding-inline-md) 
-          lg:px-(--section-padding-inline-lg)
+          xl:px-(--section-padding-inline-xl)
         '>
         <h3 className='heading-3 text-(--primary)'>Proyectos destacados</h3>
         <div
@@ -192,7 +192,7 @@ function Home() {
           py-(--spacing-xxxl)
           px-(--section-padding-inline-sm) 
           md:px-(--section-padding-inline-md) 
-          lg:px-(--section-padding-inline-lg)'
+          xl:px-(--section-padding-inline-xl)'
         >
         <h3 className='heading-3 text-(--primary) text-center'>Novedades y noticias</h3>
         <div 

@@ -2,7 +2,7 @@
 
 :root {
   font-family: "Geist", system-ui, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 0.95rem;
+  font-size: 18px;
   line-height: 1.5;
   font-weight: 400;
 
@@ -18,7 +18,7 @@
   /* ======== SECTIONS SPACING ======== */
   --section-padding-inline-sm: 24px;
   --section-padding-inline-md: 32px;
-  --section-padding-inline-lg: 120px; 
+  --section-padding-inline-xl: 136px; 
 
   /* ========= BLOG ARTICLE PADDING ==========*/
   --blog-article-inline-md: 64px; 
@@ -54,29 +54,29 @@
 /* ============ TYPOGRAPHY STYLES ============= */
 
 .heading-1 {
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 600;
 }
 
 .heading-2 {
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 600;
   line-height: 1.2;
 }
 
 .heading-3 {
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 500;
   line-height: 1.4;
 }
 
 .heading-4 {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 500;
 }
 
 .heading-5 {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 500;
 }
 
@@ -124,5 +124,11 @@ button:hover {
   :root {
     color: #213547;
     background-color: #ffffff;
+  }
+}
+
+@media (max-width: 1280px) {
+  :root {
+    font-size: 16px;
   }
 }

@@ -19,7 +19,7 @@ function Hero({page, title, subtitle, cta, ctaLink}) {
             py-(--spacing-xxxl)
             px-(--section-padding-inline-sm) 
             md:px-(--section-padding-inline-md) 
-            lg:px-(--section-padding-inline-lg)
+            xl:px-(--section-padding-inline-xl)
           '>
             {/* Contenedor del contenido del Hero */}
             <div className='flex flex-col justify-start md:w-3/4 lg:w-[57%] gap-(--spacing-sm)'>
