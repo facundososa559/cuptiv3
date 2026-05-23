@@ -41,7 +41,7 @@ function Efficiency() {
           py-(--spacing-xxxl)
           px-(--section-padding-inline-sm) 
           md:px-(--section-padding-inline-md) 
-          lg:px-(--section-padding-inline-lg)
+          xl:px-(--section-padding-inline-xl)
         '>
         <ContainerText
           title="Generamos ahorro sin inversión inicial de tiempo o de dinero →"
@@ -62,7 +62,7 @@ function Efficiency() {
           py-(--spacing-xxl) 
           px-(--section-padding-inline-sm) 
           md:px-(--section-padding-inline-md) 
-          lg:px-(--section-padding-inline-lg)
+          xl:px-(--section-padding-inline-xl)
       '>
         <h3 className='heading-4 text-(--primary) text-center'>Metodología de una auditoría energética</h3>
         <div className='flex flex-col md:flex-row gap-(--spacing-xs)'>
@@ -103,7 +103,7 @@ function Efficiency() {
           py-(--spacing-xxl) 
           px-(--section-padding-inline-sm) 
           md:px-(--section-padding-inline-md) 
-          lg:px-(--section-padding-inline-lg)
+          xl:px-(--section-padding-inline-xl)
         '>
         <h3 className='heading-4 text-(--primary) text-center'>¿Qué sigue después?</h3>
         <div className='grid md:grid-cols-2 gap-(--spacing-xs)'>
@@ -138,7 +138,7 @@ function Efficiency() {
           py-(--spacing-xxxl)
           px-(--section-padding-inline-sm) 
           md:px-(--section-padding-inline-md) 
-          lg:px-(--section-padding-inline-lg)
+          xl:px-(--section-padding-inline-xl)
         '>
         <h3 className='heading-3 text-(--primary)'>Proyectos realizados</h3>
         <div className='flex flex-col gap-(--spacing-xxl)'>

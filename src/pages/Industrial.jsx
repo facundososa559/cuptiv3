@@ -35,7 +35,7 @@ function Industrial() {
           py-(--spacing-xxxl)
           px-(--section-padding-inline-sm) 
           md:px-(--section-padding-inline-md) 
-          lg:px-(--section-padding-inline-lg)  
+          xl:px-(--section-padding-inline-xl)  
       '>
         <ContainerText 
           title="Optimizamos los procesos de tu industria →" 
@@ -54,10 +54,10 @@ function Industrial() {
           py-(--spacing-xxl) 
           px-(--section-padding-inline-sm) 
           md:px-(--section-padding-inline-md) 
-          lg:px-(--section-padding-inline-lg)
+          xl:px-(--section-padding-inline-xl)
         '>
         <h3 className='heading-4 text-(--primary) text-center'>Metodología</h3>
-        <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-(--spacing-xl)'>
+        <div className='grid md:grid-cols-2 xl:grid-cols-3 gap-(--spacing-xl)'>
           <CardMethodology 
             icon={magnifying}
             title="Relevamiento técnico"
@@ -100,7 +100,7 @@ function Industrial() {
           py-(--spacing-xxl) 
           px-(--section-padding-inline-sm) 
           md:px-(--section-padding-inline-md) 
-          lg:px-(--section-padding-inline-lg)
+          xl:px-(--section-padding-inline-xl)
         '>
         <h3 className='heading-4 text-(--primary) text-center'>¿Qué sigue después?</h3>
         <div className='grid grid-cols-3 md:flex-row gap-(--spacing-xxs)'>
@@ -130,7 +130,7 @@ function Industrial() {
           py-(--spacing-xxxl) 
           px-(--section-padding-inline-sm) 
           md:px-(--section-padding-inline-md) 
-          lg:px-(--section-padding-inline-lg)
+          xl:px-(--section-padding-inline-xl)
         '>
         <h3 className='heading-3 text-(--primary)'>Proyecto realizado</h3>
         <CardProjectDetail 
