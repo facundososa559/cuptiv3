@@ -6,14 +6,12 @@ export default function ContactContainer({ title, description }) {
     <div
       id='contacto'
       className='
-        bg-[#f8f9fa]
         flex 
         flex-col
         gap-(--spacing-lg)
         md:gap-(--spacing-xxl)
         pt-(--spacing-xxl) 
         pb-(--spacing-xxxl) 
-        mt-(--spacing-xxxl) 
         px-(--section-padding-inline-sm) 
         md:px-(--section-padding-inline-md) 
         xl:px-(--section-padding-inline-xl)
